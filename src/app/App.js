@@ -9,7 +9,6 @@ import Footer from './shared/Footer';
 import { withTranslation } from "react-i18next";
 import { auth } from './firebase';
 import { onAuthStateChanged } from 'firebase/auth';
-import ClientSidebar from './Client/ClientSidebar';
 import ClientReports from './Client/Clientreports';
 
 const App = () => {
